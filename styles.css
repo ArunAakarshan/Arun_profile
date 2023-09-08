@@ -1,0 +1,82 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');  */
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background:url("./1.1.jpg");
+    background-size: cover;
+    margin: 0px 20px 20px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
+    max-width: 700px;
+    min-width: 290px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    background: rgb(62, 79, 120);
+    color: rgb(229, 237, 244);
+    position: absolute;
+    top: 200;
+    left: 390;
+}
+hr {
+    border: none; /* Remove the default border */
+    height: 5px; /* Set the desired height for the <hr> */
+    background-color: #888888; /* Set the background color */
+    margin: 20px 0; /* Adjust margin as needed */
+}
+.profil-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #888888;
+    background: url("./wp4923492-4k-pc-batman-wallpapers.jpg");
+    background-size: cover;
+    margin: 0px 20px 20px 0px;
+    float: left;
+    shape-outside: circle();
+    
+}
+.stuff {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #888888;
+    background: url("./WhatsApp\ Image\ 2023-09-08\ at\ 10.31.04.jpg");
+    background-size: cover;
+    margin: 0px 20px 20px 0px;
+    float: left;
+    shape-outside: circle();
+}
+p{
+    text-align: start;
+}
+.steps {
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
+    max-width: 700px;
+    min-width: 290px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    background: rgb(26, 78, 63);
+    color: rgb(229, 237, 244);
+    position: absolute;
+    bottom: -180;
+    left: 390;
+}
